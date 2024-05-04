@@ -13,3 +13,10 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+function showjohnprofile(profile){
+  console.log(profile);
+}
+function showerror(error){
+  console.log(error);
+}
+getJohnProfile().then(showjohnprofile);
